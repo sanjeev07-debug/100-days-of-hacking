@@ -1,0 +1,24 @@
+[https://tryhackme.com/room/walkinganapplication](https://tryhackme.com/room/walkinganapplication)
+
+Here is a short breakdown of the in-built browser tools you will use throughout this room:
+
+- **View Source** - Use your browser to view the human-readable source code of a website.
+- **Inspector** - Learn how to inspect page elements and make changes to view usually blocked content.
+- **Debugger** - Inspect and control the flow of a page's JavaScript
+- **Network** - See all the network requests a page makes.
+
+Many websites these days aren't made from scratch and use what's called a framework
+
+ **framework is a collection of premade code that easily allows a developer to include common features that a website would require, such as blogs, user management, form processing, and much more, saving the developers hours or days of development**.
+
+The page source is the human-readable code returned to our browser/client from the web server each time we make a request.
+
+The returned code is made up of HTML ( HyperText Markup Language), CSS ( Cascading Style Sheets ) and JavaScript, and it's what tells our browser what content to display, how to show it and adds an element of interactivity with JavaScript.
+
+For our purposes, viewing the page source can help us discover more information about the web application.
+
+Viewing the page source can often give us clues into whether a framework is in use and, if so, which framework and even what version. Knowing the framework and version can be a powerful find as there may be public vulnerabilities in the framework, and the website might not be using the most up to date version. At the bottom of the page, you'll find a comment about the framework and version in use and a link to the framework's website
+
+**Developer Tools**
+
+Every modern browser includes developer tools; this is a tool kit used to aid web developers in debugging web applications and gives you a peek under the hood of a website to see what is going on. As a pentester, we can leverage these tools to provide us with a much better understanding of the web application. We're specifically focusing on three features of the developer tool kit, Inspector, Debugger and Network.
